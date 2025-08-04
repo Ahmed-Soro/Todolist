@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project4</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container mt-5 ">
+      <div class="loadingred"></div>
+      <div class="loading" id="load"></div>
+<form id="formid">
+     <div class="mb-3">
+    <label for="inputid" class="form-label">id</label>
+    <input type="number" name="inputid" class="form-control" id="inputid">
+  </div>
+  <div class="mb-3">
+    <label for="email" class="form-label">Email address</label>
+    <input type="email" name="email"class="form-control" id="email" aria-describedby="emailHelp">
+  </div>
+  <div class="mb-3">
+    <label for="password" class="form-label">Password</label>
+    <input type="password" name="passwordid" class="form-control" id="password">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Email</th>
+      <th scope="col">Password</th>
+      <th scope="col">Deletion</th>
+      <th scope="col">Updation</th>
+    </tr>
+  </thead>
+  <tbody id="tbodyid">
+  
+  </tbody>
+</table>
+
+</div>
+
+
+
+<script src="./bootstrap.min.js"></script>
+   <script src="./script.js"></script>
+</body>
+</html>
